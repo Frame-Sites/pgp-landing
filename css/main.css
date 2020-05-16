@@ -231,11 +231,12 @@ input.input100 {
   -o-background-size: cover;
 }
 
-@media (max-width: 375px) {
+
+@media only screen and (max-width: 600px) {
   .logo-img {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 100px;
     overflow: hidden;
     height: auto;
     background-position: center;
