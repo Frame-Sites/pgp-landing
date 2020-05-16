@@ -221,14 +221,15 @@ input.input100 {
 [ Logo Image ]*/
 
 .logo-img {
-  width: 500px;
+  max-width: 50%;
+  height: auto;
 }
 
-@media (max-width: 375px) {
-  .logo-img {
-    width: 350px;
-  }
-}
+/*@media (max-width: 375px) {*/
+/*  .logo-img {*/
+/*    width: 275px;*/
+/*  }*/
+/*}*/
 
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
