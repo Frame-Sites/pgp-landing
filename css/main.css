@@ -221,15 +221,28 @@ input.input100 {
 [ Logo Image ]*/
 
 .logo-img {
-  max-width: 50%;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  overflow: hidden;
+  height: 350px;
+  background-position:center;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-/*@media (max-width: 375px) {*/
-/*  .logo-img {*/
-/*    width: 275px;*/
-/*  }*/
-/*}*/
+@media (max-width: 375px) {
+  .logo-img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    overflow: hidden;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
